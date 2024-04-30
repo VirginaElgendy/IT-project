@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+body{
+    background-color: rgb(0, 56, 47);
+}
+.tittle{
+    text-align: center;
+    color: white;
+    margin: 15px 15px;
+    font-size: 20px;
+}
+.links{
+    background-color:rgb(0, 77, 64) ; 
+    display: grid;
+    place-items: center;
+}
+.links li{
+    margin-left: 15px;
+    padding: 20px 0px;
+}
+.links ul{
+    list-style-type: none;
+
+}
+.links a{
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+    transition: all 0.5s;
+    display: inline-block;
+
+}
+.links a:hover{
+    color: rgb(253,57,8);
+    transform: scale(1.1);
+}
+
+.book{
+    background-color: white;
+    padding: 20px 20px 120px 20px;
+}
+.book-image{
+   display: inline-block; 
+   margin-right: 50px;
+}
+.book-image img{
+    border-radius: 10px;
+    box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.5);
+    width: 150px;
+}
+.book-details{
+    display: inline-block; 
+    width: 75%;
+
+}
+.author{
+    margin-top: 20px;
+}
+.author-image{
+display: inline-block;
+}
+.author-details{
+    display: inline-block;
+}
+.author-image img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid black;
+}
+.book-details button{
+    padding: 10px;
+    background-color: rgb(1, 91, 76);
+    color: white;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.book-details button:hover {
+    background-color: rgb(1, 75, 62);
+}
+.h{
+    border: 1px solid rgba(0, 0, 0, 0.279);
+    
+}
+.end{
+    text-align: center;
+    color: white;
+    margin: 13px 0px ;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+.socialicons a{
+
+    padding: 10px ;
+    margin: 10px ;
+    background-color: white;
+    border-radius: 50% ;
+    text-decoration: none;
+}
+
+    
+.socialicons a i{
+    font-size: 17px;
+    color: black;
+    transition: 0.5s;
+  
+} 
+.socialicons a:hover{
+    background-color:#f8e8d9;
+     
+   
+}
+.socialicons a:hover i{
+    color: rgb(253,57,8);
+    transform:scale(1.4) ;   
+}
