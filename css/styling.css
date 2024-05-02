@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+    opacity: 0.8;
+    background-color: #DDA15E;
+    height: 70px;
+    width: 100%;
+    margin-top: 0;
+    z-index: 5;
+}
+
+.list-header{
+    list-style: none;
+    float: right;
+    margin-right: 20px;
+}
+
+.list-header li{
+    display: inline-block;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.list-header a{
+    font-style: none;
+    color: black;
+}
+
+.list-header li:hover{
+    color: #FEFAE0;
+    text-decoration: underline 2px #FEFAE0;
+}
+
+/* //////////////////// */
+
+main{
+    background-image: url(../images/background\ vh.jpg);
+    height: 100vh;
+    padding-top: 70px;
+}
+
+.opacity{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.main-content h2{
+    font-size: 60px;
+}
+
+.table{
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.main-content{
+    font-size: 30px;
+    color: #FEFAE0;
+    /* hero image */
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.main-buttons{
+    margin-top: 10px;
+}
+
+.main-button{
+    width: 120px;
+    height: 40px;
+    background-color: #FEFAE0;
+    border: none;
+    font-size: 20px;
+}
+
+.main-button:hover{
+    background-color: #fefae0c2;
+}
+
+/* //////////////////////////// */
+
+.why-us{
+    padding-top: 100px;
+    overflow: auto;
+    height: 80vh;
+    margin-bottom: 20px;
+}
+
+.why-us h2{
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+.line{
+    margin: 30px 0px;
+    width: 150px;
+    height: 5px;
+    margin-left: 50px;
+    background-color:#283618 ;
+}
+
+.why-us img{
+    float: right;
+    margin-right: 50px;
+}
+
+.whyus-p{
+    float: left;
+    margin-left: 100px;
+    font-size: 30px;
+    line-height: 50px;
+    padding-top: 30px;
+}
+
+.why-us p i {
+    color: #283618;
+}
+
+/* ///////////////////////////////////// */
+
+.ach-container{
+    background-image: url(../images/ach-background.jpeg);
+    height: 200px;
+    color:#FEFAE0;
+    margin-bottom: 150px;
+
+}
+
+.ach-item{
+    font-size: 30px;
+    text-align: center;
+} 
+
+.ach-opacity{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* ///////////////////////////////// */
+
+
+.cat-parent{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin-bottom: 10px;
+}
+
+.cat-item{
+    text-align: center;
+    width: 400px;
+
+    height: auto;
+    padding: 15px;
+
+    position: relative;
+
+}
+
+.cat-item a{
+    display: block;
+    margin-top: 15px;
+    /* text-decoration: none; */
+    color: inherit;
+
+    position: inherit;
+    z-index: 1;
+}
+
+.cat-item p{
+    margin-top: 15px;
+
+}
+
+.cat-line{
+    width: 150px;
+    height: 5px;
+    margin: auto;
+    background-color:#283618 ;
+    margin-bottom: 50px;
+}
+
+.cat-h2{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+
+.cat-parent h2{
+    font-size: 40px;
+
+    position: inherit;
+    z-index: 1;
+}
+
+.cat-parent p{
+    font-size: 20px;
+
+    position: inherit;
+    z-index: 1;
+}
+
+.cat-item::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+
+    top: 0;
+    left:0;
+    color: black;
+
+    background-color: #DDA15E;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.cat-item:hover::after {
+    width: 100%;
+    height:100%;
+    opacity:0.8;
+}
+.cat-item:hover{
+    color: #283618;
+}
+
+.cat{
+    margin-bottom:200px;
+}
+
+/* //////////////////////// */
+
+.footer-content{
+    width: 100%;
+    height: 320px;
+    background-color: #283618;
+}
+ footer img{
+    padding-top: 20px;
+    margin: auto;
+    display: block;
+}
+
+.icons{
+    text-align: center;
+    font-size: 40px;
+}
+
+.icons i:hover{
+    color: #DDA15E;
+}
+
+.icons a{
+    color: inherit;
+}
+.footer-content p{
+    text-align: center;
+    color: #FEFAE0;
+}
+
+.video{
+    width: 80%;
+    margin: auto;
+}
+
+.video iframe{
+    width: 100%;
+    margin-bottom: 50px;
+}
